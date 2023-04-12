@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título da guia.-->
+    <title>Calculadora de Idade</title>
+    <!--JavaScript.-->
+    <script src="script.js"></script>
+    <!--CSS.-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section>
+        <!--Box.-->
+        <article>
+            <header>
+                <!--Título.-->
+                <h2>Calculadora De Idade</h2>
+            </header>
+            <!--Tabela de formulário.-->
+            <form>
+                <table>
+                    <tr>
+                        <td class="classe-nome">Nome:</td>
+                        <!--Campo de entrada de valor para nome.-->
+                        <td><input type="text" id="nome"></td>
+                    </tr>
+                    <tr>
+                        <td class="classe-data">Data de Nasc.:</td>
+                        <!--Campo de entrada de valor para data.-->
+                        <td><input type="date" id="data"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!--Botão que executa a função calcular, através do atributo onclick.-->
+                            <button type="button" onclick="calcular()">Calcular</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>            
+            <p id="resposta"></p>
+            <p id="resposta-02"></p>
+        </article>
+    </section>
+    <!--Crédito do desenvolvimento da página web.-->
+    <footer>Desenvolvido por Maycon França</footer>
+</body>
+</html>

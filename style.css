@@ -1,0 +1,76 @@
+/*Formatação CSS da página, através dos seus elementos, classes e ids.*/
+
+body {
+    background-color: dodgerblue;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+/*Box.*/
+article {
+    border: solid 2px;
+    border-radius: 10%;
+    border-color: blue;
+    width: 500px;
+    height: auto;
+    margin: 0;
+    margin: 3% auto 0;
+    padding: 0;
+    padding: 5px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+table {
+    margin: 0;
+    margin: auto;
+}
+
+.classe-nome {
+    color: blue;
+}
+
+#nome {
+    width: 108px;
+    border: solid 1px blue;
+}
+
+.classe-data {
+    color: blue;
+}
+
+#data {
+    border: solid 1px blue;
+    color: blue;
+}
+
+button {
+    color: blue;
+}
+
+#resposta {
+    text-align: center;
+    color: tomato;
+    font-size: 17px;
+}
+
+#resposta-02 {
+    text-align: center;
+    color: goldenrod;
+    font-size: 17px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
